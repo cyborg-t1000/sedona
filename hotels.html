@@ -24,7 +24,59 @@
 
     <section>
       <h2>Фильтр гостиниц</h2>
-      <!-- Здесь будет форма -->
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="pool" id="filter-pool" checked>
+              <label for="filter-pool">Бассейн</label>
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="filter-parking">
+              <label for="filter-parking">Парковка</label>
+            </li>
+            <li>
+              <input type="checkbox" name="wifi" id="filter-wifi">
+              <label for="filter-wifi">Wi-Fi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="filter-hotel" checked>
+              <label for="filter-hotel">Гостиница</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="filter-motel" checked>
+              <label for="filter-motel">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="apartment" id="filter-apartment" checked>
+              <label for="filter-apartment">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+          <p>
+            <label for="price1">Цена от:</label>
+            <input type="text" name="price1" id="price1" value="От 0">
+          </p>
+          <p>
+            <label for="price2">Цена до:</label>
+            <input type="text" name="price2" id="price2" value="До 3000">
+          </p>
+          <p>
+            <label for="price-range">Диапазон цены</label>
+            <input type="range" name="price-range" id="price-range">
+          </p>
+          <button type="submit">Показать</button>
+        </fieldset>
+
+      </form>
     </section>
 
     <section>

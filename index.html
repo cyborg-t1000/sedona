@@ -115,8 +115,25 @@
 
   <section>
     <h2>Поиск отелей</h2>
-    <!-- Здесь будет форма -->
-    <button type="button">Найти</button>
+    <form method="get" action="https://echo.htmlacademy.ru">
+      <p>
+        <label for="date1">Дата заезда</label>
+        <input id="date1" type="date" name="date1" value="2017-04-24">
+      </p>
+      <p>
+        <label for="date2">Дата выезда</label>
+        <input id="date2" type="date" name="date2" value="2017-06-04">
+      </p>
+      <p>
+        <label for="adults">Взрослые</label>
+        <input id="adults" type="number" name="adults" value="" placeholder="2">
+      </p>
+      <p>
+        <label for="children">Дети</label>
+        <input id="children" type="number" name="children" value="" placeholder="0">
+      </p>
+      <button type="button">Найти</button>
+    </form>
   </section>
 
 </body>
