@@ -90,6 +90,34 @@
     </section>
 
     <section>
+      <h2>Поиск отелей</h2>
+      <form method="get" action="https://echo.htmlacademy.ru">
+        <p>
+          <label for="date1">Дата заезда</label>
+          <input id="date1" type="text" name="date1" value="24 апреля 2017">
+          <button>Календарь</button>
+        </p>
+        <p>
+          <label for="date2">Дата выезда</label>
+          <input id="date2" type="text" name="date2" value="4 июля 2017">
+          <button>Календарь</button>
+        </p>
+        <p>
+          <label for="adults">Взрослые</label>
+          <button>-</button>
+          <input id="adults" type="text" name="adults" value="" placeholder="2">
+          <button>+</button>
+        </p>
+        <p>
+          <label for="children">Дети</label>
+          <button>-</button>
+          <input id="children" type="text" name="children" value="" placeholder="0">
+          <button>+</button>
+        </p>
+        <button type="button">Найти</button>
+      </form>
+    </section>
+    <section>
       <h2>Как проехать в город</h2>
       <img src="img/map.png" width="1200" height="593" alt="Карта проезда">
     </section>
@@ -112,29 +140,6 @@
           alt="HTML Academy"></a>
     </p>
   </footer>
-
-  <section>
-    <h2>Поиск отелей</h2>
-    <form method="get" action="https://echo.htmlacademy.ru">
-      <p>
-        <label for="date1">Дата заезда</label>
-        <input id="date1" type="date" name="date1" value="2017-04-24">
-      </p>
-      <p>
-        <label for="date2">Дата выезда</label>
-        <input id="date2" type="date" name="date2" value="2017-06-04">
-      </p>
-      <p>
-        <label for="adults">Взрослые</label>
-        <input id="adults" type="number" name="adults" value="" placeholder="2">
-      </p>
-      <p>
-        <label for="children">Дети</label>
-        <input id="children" type="number" name="children" value="" placeholder="0">
-      </p>
-      <button type="button">Найти</button>
-    </form>
-  </section>
 
 </body>
 
