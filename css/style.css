@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+.button {
+  font: inherit;
+
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #669ec0;
+}
+
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.button-brown {
+  background-color: #766357;
+}
+
+.button-brown:hover,
+.button-brown:focus {
+  background-color: #604e43;
+}
+
+.button-brown:active {
+  background-color: #503e33;
+}
+
+.button-big {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.main-navigation {
+  line-height: 26px;
+  color: #000000;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  opacity: 0.3;
+}
+
+.mountains-image {
+  background-color: #d9ebf3;
+  background-image: url("../img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.reasons-header {
+  line-height: 26px;
+}
+
+.reasons-header h2 {
+  color: #000000;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.reason h2 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.reason-blue {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.reason-grey {
+  background-color: #eeeeee;
+}
+
+.reason-grey h2{
+  color: #000000;
+}
+
+.reasons-city ul {
+  list-style: none;
+}
+
+.reasons-rest ul {
+  list-style: none;
+}
+
+.book h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.booking-item label {
+  font-weight: 700;
+}
+
+.booking-item input {
+  font: inherit;
+  font-weight: 700;
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.booking-item input:hover {
+  background-color: #ebebeb;
+  border: 2px solid #ebebeb;
+}
+
+.booking-item input:focus {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.search-form input[type="text"],
+.search-form .icon {
+  font: inherit;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.search-form .icon {
+  color: #a9a9a9;
+}
+
+.search-form .icon:hover {
+  color: #000000;
+}
+
+.search-form .icon:focus {
+  color: #81b3d2;
+}
+
+.main-footer {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
