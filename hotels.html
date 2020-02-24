@@ -4,13 +4,16 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="main-navigation">
       <a href="index.html"><img src="img/logo-sedona.svg" width="140" height="72" alt="City of Sedona"></a>
-      <ul>
+      <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="media.html">Фото и видео</a></li>
         <li><a href="map.html">Карта штата</a></li>
@@ -19,10 +22,10 @@
     </nav>
   </header>
 
-  <main>
+  <main class="inner-page">
     <h1 class="visually-hidden">Отели в Седоне</h1>
 
-    <section>
+    <section class="filters">
       <h2 class="visually-hidden">Фильтр гостиниц</h2>
       <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
@@ -33,7 +36,7 @@
               <label for="filter-pool">Бассейн</label>
             </li>
             <li>
-              <input type="checkbox" name="parking" id="filter-parking">
+              <input type="checkbox" name="parking" id="filter-parking" disabled>
               <label for="filter-parking">Парковка</label>
             </li>
             <li>
@@ -73,18 +76,18 @@
             <label for="price-range">Диапазон цены</label>
             <input type="range" name="price-range" id="price-range">
           </p>
-          <button type="submit">Показать</button>
+          <button class="button button-filter" type="submit">Показать</button>
         </fieldset>
 
       </form>
     </section>
 
-    <section>
+    <section class="search-results">
       <h2 class="visually-hidden">Результаты поиска</h2>
 
       <ul>
         <li>
-          <h3><a href="hotel-1.htm">Amara Resort & Spa</a></h3>
+          <h3><a class="hotel-name" href="hotel-1.htm">Amara Resort & Spa</a></h3>
           <a href="hotel-1.htm">
             <img src="img/hotel-1.jpg" width="135" height="90" alt="Amara Resort & Spa">
           </a>
@@ -93,14 +96,14 @@
             <span>От 4000 р.</span>
           </p>
           <p>
-            <a href="hotel-1.html">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a class="button button-hotel" href="hotel-1.html">Подробнее</a>
+            <button class="button button-hotel button-brown" type="button">Забронировать</button>
           </p>
-          <p>Рейтинг: 8,5</p>
+          <p class="rating">Рейтинг: 8,5</p>
         </li>
 
         <li>
-          <h3><a href="hotel-2.htm">Desert Quail Inn</a></h3>
+          <h3><a class="hotel-name" href="hotel-2.htm">Desert Quail Inn</a></h3>
           <a href="hotel-2.htm">
             <img src="img/hotel-2.jpg" width="135" height="90" alt="Desert Quail Inn">
           </a>
@@ -109,14 +112,14 @@
             <span>От 3000 р.</span>
           </p>
           <p>
-            <a href="hotel-2.html">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a class="button button-hotel" href="hotel-2.html">Подробнее</a>
+            <button class="button button-hotel button-brown" type="button">Забронировать</button>
           </p>
-          <p>Рейтинг: 8,5</p>
+          <p class="rating">Рейтинг: 8,5</p>
         </li>
 
         <li>
-          <h3><a href="hotel-3.htmL">Villas At Poco Diablo</a></h3>
+          <h3><a class="hotel-name" href="hotel-3.htmL">Villas At Poco Diablo</a></h3>
           <a href="hotel-3.htm">
             <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas At Poco Diablo">
           </a>
@@ -125,17 +128,17 @@
             <span>От 2000 р.</span>
           </p>
           <p>
-            <a href="hotel-3.html">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a class="button button-hotel" href="hotel-3.html">Подробнее</a>
+            <button class="button button-hotel button-brown" type="button">Забронировать</button>
           </p>
-          <p>Рейтинг: 8,5</p>
+          <p class="rating">Рейтинг: 8,5</p>
         </li>
       </ul>
 
     </section>
   </main>
 
-  <footer>
+  <footer class="main-footer">
     <p>
       #visitsedona<br>
       Тел: +7 (495) 666-02-66
